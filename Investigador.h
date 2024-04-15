@@ -12,6 +12,8 @@ class Investigador{
 		string institucion;
 	public:
 		Investigador(int orcid, string institucion, int anyoInicio, string areaConocimento);
+		int getOrcid();
+		string Institucion();
 		virtual string getAreaInvestigacion() = 0;
 		int getAnyosExperiencia();
 		string toString();
