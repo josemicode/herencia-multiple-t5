@@ -1,4 +1,5 @@
 #include <iostream>
+#include "CampoElectrico.h"
 using namespace std;
 
 class CampoElectricoEsfera : public CampoElectrico {
@@ -6,9 +7,9 @@ class CampoElectricoEsfera : public CampoElectrico {
     float radio_esfera;
      
     public:
-    CampoElectricoEsferaConductora();
-    CampoElectricoEsferaConductora(float radio_esfera, float carga, float* posicion, string nombre);
+    CampoElectricoEsfera();
+    CampoElectricoEsfera(float radio_esfera, float carga, float* posicion, string nombre);
     float calcularIntensidad(float* posicion);
     float *calcularCampo(float* posicion);
-    string toString;
+    string toString();
 };

@@ -13,5 +13,5 @@ class CampoVectorial {
     virtual float* calcularDireccion(float posicion) = 0;
     string getNombre();
     static float dist(float* punto1, float* punto2);
-    string toString;
+    string toString();
 };
