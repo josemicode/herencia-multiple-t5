@@ -1,3 +1,4 @@
+#pragma once 
 #include <iostream>
 #include "CampoElectrico.h"
 using namespace std;

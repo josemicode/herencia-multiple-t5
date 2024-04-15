@@ -1,9 +1,10 @@
+#pragma once 
 #include"CampoVectorial.h"
 #include <iostream>
 using namespace std;
 
 class CampoElectrico : virtual public CampoVectorial {
-    private:
+    protected:
     float carga;
     float posicion[2];
     static float epsilon;

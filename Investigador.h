@@ -1,3 +1,8 @@
+#pragma once
+#include <iostream>
+
+using namespace std;
+
 class Investigador{
 	private:
 		int orcid;
@@ -6,7 +11,7 @@ class Investigador{
 	protected:
 		string institucion;
 	public:
-		Investigador(orcid, institucion, anyoInicio, areaConocimento);
+		Investigador(int orcid, string institucion, int anyoInicio, string areaConocimento);
 		virtual string getAreaInvestigacion() = 0;
 		int getAnyosExperiencia();
 		string toString();
