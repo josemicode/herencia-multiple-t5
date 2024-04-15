@@ -11,4 +11,4 @@ class CampoElectricoEsfera : public CampoElectrico {
     float calcularIntensidad(float* posicion);
     float *calcularCampo(float* posicion);
     string toString;
-}
+};

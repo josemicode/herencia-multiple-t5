@@ -15,4 +15,4 @@ class CampoElectrico : virtual public CampoVectorial {
     float getCarga();
     void setCarga(float carga);
     string toString;
-}
+};

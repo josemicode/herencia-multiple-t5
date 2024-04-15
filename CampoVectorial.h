@@ -14,4 +14,4 @@ class CampoVectorial {
     string getNombre();
     static float dist(float* punto1, float* punto2);
     string toString;
-}
+};
