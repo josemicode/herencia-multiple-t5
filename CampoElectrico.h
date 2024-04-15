@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class CampoElectrico : public CampoVectorial {
+class CampoElectrico : virtual public CampoVectorial {
     private:
     float carga;
     float posicion[2];
