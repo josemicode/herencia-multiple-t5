@@ -16,7 +16,7 @@ class Investigador{
 		string Institucion();
 		virtual string getAreaInvestigacion() = 0;
 		int getAnyosExperiencia();
-		string toString();
+		virtual string toString();
 		Investigador(const &Investigador otro);
 		Investigador operator = (const &Investigador otro);
 };
