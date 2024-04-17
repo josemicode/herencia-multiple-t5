@@ -2,12 +2,12 @@
 #include <iostream>
 
 using namespace std;
-typedef struct datosPersonales {
+typedef struct{
     string dni;
     string nombre;
     string apellidos;
     int edad;
-};
+}datosPersonales;
 
 class Profesor {
     private:
