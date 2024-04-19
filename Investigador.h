@@ -13,10 +13,10 @@ class Investigador{
 	public:
 		Investigador(int orcid, string institucion, int anyoInicio, string areaConocimento);
 		int getOrcid();
-		string Institucion();
+		string getInstitucion();
 		virtual string getAreaInvestigacion() = 0;
 		int getAnyosExperiencia();
-		string toString();
-		Investigador(const &Investigador otro);
-		Investigador operator = (const &Investigador otro);
+		virtual string toString();
+		Investigador(const Investigador &otro);
+		Investigador& operator = (const Investigador &otro);
 };
