@@ -8,7 +8,7 @@ class CampoElectrico : virtual public CampoVectorial {
     float carga;
     float posicion[2];
     static float epsilon;
-
+ 
     public:
     CampoElectrico();
     CampoElectrico(float carga, float* posicion, string nombre);
