@@ -1,5 +1,13 @@
 # herencia-multiple-t5
 
+TAREA POR JOSE OJEDA Y MARINA GARCÍA 
+
+// EJERCICIO 1
+El primer ejercicio de la tarea trata sobre un conjunto de clases que sirven para representar los campos electricos.
+Clase CampoVectorial: es la clase padre de CampoElectrico que está detallada a continuación.
+Clase CampoElectrico: calcula el campo electrico de una carga en una posicion dada, donde la carga es una atributo privado y usamos getters y setters para poder acceder a ella. Nos calcula la intensidad y la dirección del campo electrico.
+Clase CampoElectricoEsferaConductora: se calcula el campo electrico en una esfera conductora. Se utiliza la misma funcion que en CampoElectrico pero se modifican las funciones de calcularIntensidad y calcularDireccion para poder tener en cuenta el radio de la esfera.
+
 // EJERCICIO 2
 El segundo apartado de la tarea está organizado en tres componentes principales:
 
