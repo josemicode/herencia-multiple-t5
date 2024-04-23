@@ -22,3 +22,5 @@ float CampoElectrico ::calcularIntensidad(float* posicion){
 float* CampoElectrico :: calcularDireccion(float* posicion){
 
 };
+
+//faltan funciones por terminar
