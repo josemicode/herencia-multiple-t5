@@ -1,15 +1,14 @@
-#pragma once 
-#include"CampoVectorial.h"
+#pragma once
+#include "CampoVectorial.h"
 #include <iostream>
 using namespace std;
 
 class CampoElectrico : virtual public CampoVectorial {
-    protected:
+protected:
     float carga;
     float posicion[2];
     static float epsilon;
- 
-    public:
+public:
     CampoElectrico();
     CampoElectrico(float carga, float* posicion, string nombre);
     float calcularIntensidad(float* posicion);
