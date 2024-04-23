@@ -1,5 +1,4 @@
 #include "CampoVectorial.h"
-#include "CampoElectrico.h"
 #include <cmath>
 #include <iostream>
 

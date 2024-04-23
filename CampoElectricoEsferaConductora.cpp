@@ -9,6 +9,7 @@ CampoElectricoEsfera::CampoElectrico() {
 
 CampoElectricoEsfera::CampoElectricoEsfera(float radio_esfera, float carga, float* posicion, string nombre) : CampoElectrico(carga, posicion, nombre) {
     this->radio_esfera = radio_esfera;
+    this->nombre = nombre;
 };
 
 float CampoElectricoEsfera::calcularIntensidad(float* posicion) {

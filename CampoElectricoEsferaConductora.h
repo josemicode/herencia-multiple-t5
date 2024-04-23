@@ -1,6 +1,7 @@
 #pragma once 
 #include <iostream>
 #include "CampoElectrico.h"
+#include "CampoVectorial.h"
 using namespace std;
 
 class CampoElectricoEsfera : public CampoElectrico {
