@@ -27,6 +27,7 @@ string Profesor::toString(){
 	string res = "\n- DNI: " + (this->datos).dni + "\n- Nombre: " + (this->datos).nombre
 	+ "\n- Apellidos: " + (this->datos).apellidos + "\n- Edad: " + to_string((this->datos).edad)
 	+ "\n- Anyo de Inicio: " + to_string(this->anyoInicio) + "\n- Institucion: " + this->institucion;
+	return res;
 }
 
 int main(){

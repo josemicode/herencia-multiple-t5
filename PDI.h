@@ -1,3 +1,10 @@
+#pragma once
+#include <iostream>
+#include"Profesor.h"
+#include"Investigador.h"
+
+using namespace std;
+
 class PDI: public Profesor, private Investigador{
 	private:
 	protected:
@@ -7,8 +14,8 @@ class PDI: public Profesor, private Investigador{
 		double getMediaAnyosExperiencia();
 		void actualizaInstitucion(string inst);
 		virtual string toString();
-		virtual getAreaDocencia();
+		virtual string getAreaDocencia();
 		bool esMasVeterano(PDI *objPDI);
-		Profesor (const &Profesor otro);
-		Profesor operator = (const &Profesor otro);
+		PDI(const Profesor &otro);
+		PDI& operator = (const Profesor &otro);
 };

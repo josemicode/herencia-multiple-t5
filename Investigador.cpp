@@ -24,6 +24,7 @@ int Investigador::getAnyosExperiencia(){
 string Investigador::toString(){
 	string res = "\n- Codigo orcid: " + to_string(this->orcid) + "\n- Institucion: " + this->institucion
 	+ "\n- Anyo de Inicio: " + to_string(this->anyoInicio) + "\n- Area de Conocimiento: " + this->areaConocimiento;
+	return res;
 }
 
 Investigador::Investigador(const Investigador &otro){
