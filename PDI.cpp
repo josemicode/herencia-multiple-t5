@@ -54,8 +54,8 @@ bool PDI::esMasVeterano(PDI *objPDI){
 }
 
 PDI::PDI(const Profesor &otro){
-	this->Profesor::institucion = otro.institucion;
-	this->Profesor::anyoInicio = otro.anyoInicio;	
+	this->dni = otro.getDNI();
+	this->institucion = otro.getInstitucion();
 }
 
 PDI& PDI::operator = (const Profesor &otro){

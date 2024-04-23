@@ -1,3 +1,4 @@
+#pragma once
 #include<iostream>
 #include"PDI.h"
 class Departamento{
@@ -5,7 +6,7 @@ class Departamento{
 		string nombre;
 		int numMax;
 		PDI pdis[];
-		PDI *pdiPointer;
+		int numPDI;
 	public:
 		Departamento(string nombre, int numMax);
 		~Departamento();
